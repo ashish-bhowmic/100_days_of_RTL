@@ -1,0 +1,46 @@
+$date
+	Wed Mar 26 01:12:38 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module decoder_tb $end
+$var wire 8 ! out [7:0] $end
+$var reg 3 " in [2:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 "
+b1 !
+$end
+#10000
+b10 !
+b1 "
+#15000
+b100 !
+b10 "
+#20000
+b1000 !
+b11 "
+#25000
+b10000 !
+b100 "
+#30000
+b100000 !
+b101 "
+#35000
+b1000000 !
+b110 "
+#40000
+b10000000 !
+b111 "
+#45000
+b1 !
+b0 "
