@@ -18,9 +18,9 @@ initial begin
 
     a =0;b=0;cin=0;
     #5;
-    repeat (16) begin
+    repeat (15) begin
         #5 a=a+1;
-        repeat (16) begin
+        repeat (15) begin
             #5 b=b+1;
             repeat (2) begin
                 #5 cin =~cin;
