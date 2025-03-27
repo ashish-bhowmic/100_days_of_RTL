@@ -9,7 +9,7 @@ wire Y;
 
 mux8x1 dut(I,SEL,Y);
 initial begin
-    $dumpfile ("mux4x1.vcd");
+    $dumpfile ("mux8x1.vcd");
     $dumpvars(1);
     $monitor("I=%b\tSEL=%b\tY=%b\t",I,SEL,Y);
     I= 8'b00000001;SEL=3'b000;
