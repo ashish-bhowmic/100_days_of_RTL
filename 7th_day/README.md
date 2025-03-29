@@ -32,7 +32,7 @@ The image above illustrates the Register-Transfer Level (RTL) view of the `unive
 
 ## Waveform Simulation
 
-![Simulation Waveform](wave.jpg)
+![Simulation Waveform](Wave.jpg)
 
 The provided waveform image demonstrates the simulation results, verifying the counter's behavior under different input conditions.
 
