@@ -3,6 +3,7 @@
 
 module pwm_tb();
 
+
 reg clk,rst;
 reg [7:0] duty_cycle;
 wire pwm_out;
@@ -18,6 +19,8 @@ initial begin
     rst = 1;
     duty_cycle = 8'd128;
     #200;
+
+    #500;
     $finish;
 end
 
