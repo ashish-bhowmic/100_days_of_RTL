@@ -33,8 +33,8 @@ always @(posedge clk) begin
         end
         if (read && !empty) begin
             data_out <= mem[read_pointer];
-            read_pointer = read_pointer +1;
-            if (read_pointer == depth) begin
+            read_pointer <= read_pointer +1;
+            if (read_pointer == depth) begin    
                 read_pointer <= 0;
             end
             count <= count -1;
